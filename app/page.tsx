@@ -16,9 +16,7 @@ export default function HomePage() {
                 <Activity className="w-5 h-5 text-primary-foreground" />
               </div>
               <span className="text-xl font-bold text-foreground">Nidan AI</span>
-              <Badge variant="secondary" className="text-xs">
-                by Team Elite Coders
-              </Badge>
+              
             </div>
             <div className="hidden md:flex items-center space-x-6">
               <Link href="/scan" className="text-muted-foreground hover:text-foreground transition-colors">
@@ -39,9 +37,7 @@ export default function HomePage() {
       <section className="relative py-20 px-4 sm:px-6 lg:px-8">
         <div className="max-w-7xl mx-auto text-center">
           <div className="mb-8">
-            <Badge variant="outline" className="mb-4 text-primary border-primary/20">
-              CodeVeda Hackathon
-            </Badge>
+            
             <h1 className="text-4xl md:text-6xl font-bold text-balance mb-6">
               Your AI Health <span className="text-primary">Companion</span>
             </h1>
