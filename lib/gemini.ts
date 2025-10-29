@@ -1,7 +1,7 @@
 // Ensure global-fetch is available
 const fetch = global.fetch // Use global fetch available in Next.js
 
-const GEMINI_API_KEY = "AIzaSyA13Ov1HpMwX2BJmciDN4gmkiUGNEjvihA"
+const GEMINI_API_KEY = process.env.APIKEY
 const GEMINI_API_URL =
   "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-image-preview:generateContent"
 
